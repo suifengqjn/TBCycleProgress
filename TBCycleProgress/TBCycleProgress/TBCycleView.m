@@ -83,7 +83,6 @@
     
     [self.layer setMask:_progressLayer]; //用progressLayer来截取渐变层
     [self.layer addSublayer:_gradientLayer];
-    NSLog(@"%lx",self.layer.sublayers.count);
 }
 
 
